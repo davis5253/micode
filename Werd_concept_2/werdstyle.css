@@ -1,0 +1,62 @@
+body {
+	max-width: 100%;
+	background-color: black;
+}
+
+#header {
+	position: relative;
+    height: 80px;
+    max-width: 100%;
+    text-align: center;
+	background-color: #cc99ff;  /* The color code #cc99ff produces a purple background */
+	border-radius:25px;
+	}
+	
+	#logo {
+		position:relative;
+		top: 5px;
+	}
+
+#menu_bar {
+		position: relative;
+		top: 20px;
+		text-align: center;
+		margin: 0px 0px 0px 0px;
+	}
+	
+	li {
+		display: inline;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+	}
+	
+	a {
+		margin: auto;
+		color: white;
+		font-family: Arial, "MS Trebuchet", sans-serif;
+	}
+
+#maincontent{
+	position: relative;
+    top: 35px;
+    height: 475px;
+    max-width: 100%;
+    text-align: left;
+	/*background-color: gray;*/
+	background-image: url("images/free3.jpg");
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+footer {
+	background-color: black;
+	position: relative;
+	top: 25px;
+    text-align: center;
+    color: white;
+}
